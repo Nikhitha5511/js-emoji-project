@@ -1,0 +1,50 @@
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+  }
+  .emoji {
+    width: 5%;
+    font-size:200%;
+  }
+  .aliases, .description {
+    width: 40%;
+    text-transform: capitalize;
+  }
+  body{
+    background-color:#2C5F2D;
+    color:white;
+  }
+
+  .searchBox{
+    height:30px;
+    width:250px;
+    font-weight: bold;
+  }
+  .button{
+    width:100px;
+    height:25px;
+    background-color: antiquewhite;
+    border:none;
+    
+  }
+
+  @keyframes example{
+    from{transform: translate(0);
+    color:white;}
+    to{transform: translate(610px);
+     color:antiquewhite;
+  }
+}
+
+  h1{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+
+  }
